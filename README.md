@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/django-logo.png" width="75" />
+  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/vue-logo.png" width="75" />
   <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/django-logo.png" width="200" />
 </p>
 
