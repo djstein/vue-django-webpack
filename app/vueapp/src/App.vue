@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/vue-logo.png">
+    <h1>+</h1>
+    <img id="django" src="./assets/django-logo.png">
     <hello></hello>
   </div>
 </template>
@@ -24,5 +26,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#django {
+  max-width:30%;
+  height:auto;
 }
 </style>
