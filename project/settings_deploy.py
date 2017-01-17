@@ -15,7 +15,12 @@ STATICFILES_DIRS = [
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'static/js',
-        'STATS_FILE': os.path.join(BASE_DIR, 'app', 'vueapp', 'webpack-stats.dev.json')
+        'BUNDLE_DIR_NAME': 'static/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'app', 'vueapp', 'webpack-stats.json')
     }
 }
+
+INTERNAL_IPS = (
+    '0.0.0.0',
+    '127.0.0.1',
+)

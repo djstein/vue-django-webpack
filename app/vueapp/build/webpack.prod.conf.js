@@ -19,7 +19,7 @@ var webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
-    publicPath: 'http://localhost:8080/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
+    publicPath: 'http://localhost:8000/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
     filename: utils.assetsPath('js/[name]-[chunkhash].js'),
     chunkFilename: utils.assetsPath('js/[id]-[chunkhash].js')
   },
