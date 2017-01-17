@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/img/vue-logo.png" width="75" />
-  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/img/django-logo.png" width="200" />
+  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/django-logo.png" width="75" />
+  <img src="https://raw.githubusercontent.com/djstein/vue-django-webpack/master/app/vueapp/src/assets/django-logo.png" width="200" />
 </p>
 
 - Use of Vue.js in component form
