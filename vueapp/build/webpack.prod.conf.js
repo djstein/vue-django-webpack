@@ -19,8 +19,8 @@ var webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
-    publicPath: 'http://localhost:8000/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
-    // publicPath: 'http://vue-django-webpack-boost-test.44fs.preview.openshiftapps.com/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
+    // publicPath: 'http://localhost:8000/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
+    publicPath: 'http://vue-django-webpack-boost-test.44fs.preview.openshiftapps.com/', // Tell django to use this URL to load packages and not use STATIC_URL + bundle_name
     filename: utils.assetsPath('[name]-[chunkhash].js'),
     chunkFilename: utils.assetsPath('[id]-[chunkhash].js')
   },

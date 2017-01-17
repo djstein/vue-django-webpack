@@ -6,17 +6,17 @@ INSTALLED_APPS.append( 'app',)
 
 ALLOWED_HOSTS.append('*',)
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = [
-    # os.path.join(BASE_DIR, 'static')
-    os.path.join(BASE_DIR, 'app', 'vueapp','dist', 'static')
+    os.path.join(BASE_DIR, 'static',)
+    # os.path.join(BASE_DIR, 'app', 'vueapp','dist', 'static')
 ]
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'static/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'app', 'vueapp', 'webpack-stats.json')
+        'BUNDLE_DIR_NAME': 'static/vueapp/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'vueapp', 'webpack-stats.json')
     }
 }
 
