@@ -1,0 +1,3 @@
+APP_MODULE=project.wsgi
+APP_CONFIG=config.py
+DISABLE_MIGRATE=1
