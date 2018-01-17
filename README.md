@@ -1,3 +1,5 @@
+!!! Disclaimer: This package is not maintained and therefore is not recommended for production use. It is also recommended not to deploy a JavaScript application through Django. Please refer to load balancing with nginx or ELB/ALB and storing files on S3 or similar services.
+
 # vue-django-webpack
 
 <h1 align="center">
